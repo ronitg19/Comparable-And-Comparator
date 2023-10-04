@@ -1,4 +1,4 @@
-package com.comparator;
+package com.comparator.separateclass;
 
 public class Employee {
 	int id;
@@ -32,7 +32,5 @@ public class Employee {
 	public String toString() {
 		return "Employee [id=" + id + ", name=" + name + ", salary=" + salary + "]";
 	}
-	
-	
 
 }
